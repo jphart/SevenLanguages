@@ -1,0 +1,45 @@
+Sample code: 	http://iolanguage.com/about/samplecode/
+				http://www.iolanguage.com/scm/io/docs/IoTutorial.html
+				
+help site: 		http://io-fans.jottit.com/
+
+Style guide: 		http://en.wikibooks.org/wiki/Io_Programming/Io_Style_Guide
+
+
+Answer:
+
+1) Strongly typed.
+
+Io> test desc := "blah"
+==> blah
+Io> test desc = 1
+Io> test desc type
+==> Number
+Io> test desc = "hi"
+==> hi
+Io> test desc type
+==> Sequence
+
+Io> 1 asString type
+==> Sequence
+Io> 1 type
+==> Number
+
+2)
+0 is True
+Io> 0 and true
+==> true
+
+
+Nil is false
+Io> true and nil
+==> false
+
+
+3) Object slotNames
+
+4)
+
+:= Creates a slot & assigns variable
+= Assigns a variable to an existing slot
+::= Creates a slot, creates a setter & assigns a variable. 
